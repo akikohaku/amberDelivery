@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/regRegButton"
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:layout_marginTop="250dp"
+        android:text="注册"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regName" />
+
+    <EditText
+        android:id="@+id/regName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="384dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/regRegButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="用户名"
+        app:layout_constraintBottom_toTopOf="@+id/regName"
+        app:layout_constraintStart_toStartOf="@+id/regName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="手机号"
+        app:layout_constraintBottom_toTopOf="@+id/regPhone"
+        app:layout_constraintStart_toStartOf="@+id/regPhone" />
+
+    <EditText
+        android:id="@+id/regPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="@+id/regName"
+        app:layout_constraintTop_toBottomOf="@+id/regName" />
+
+    <EditText
+        android:id="@+id/regPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/regPhone"
+        app:layout_constraintTop_toBottomOf="@+id/regPhone" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="密码"
+        app:layout_constraintBottom_toTopOf="@+id/regPass"
+        app:layout_constraintStart_toStartOf="@+id/regPass" />
+
+    <EditText
+        android:id="@+id/regRePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/regPass"
+        app:layout_constraintTop_toBottomOf="@+id/regPass" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="重复密码"
+        app:layout_constraintBottom_toTopOf="@+id/regRePass"
+        app:layout_constraintStart_toStartOf="@+id/regRePass" />
+
+    <Button
+        android:id="@+id/regcancel"
+        android:layout_width="600px"
+        android:layout_height="150px"
+        android:layout_marginTop="8dp"
+        android:text="取消"
+        app:layout_constraintStart_toStartOf="@+id/regRegButton"
+        app:layout_constraintTop_toBottomOf="@+id/regRegButton" />
+
+    <RadioGroup
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:layoutDirection="ltr"
+        app:layout_constraintBottom_toTopOf="@+id/regName"
+        app:layout_constraintStart_toStartOf="@+id/regName">
+
+        <LinearLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/regNormal"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="普通用户" />
+
+            <RadioButton
+                android:id="@+id/regDeliver"
+                style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="快递员" />
+
+        </LinearLayout>
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

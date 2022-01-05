@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/access.xml" value="0.5" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/addpostdeliver.xml" value="0.3138586956521739" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/admin.xml" value="0.46420581655480986" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/adminlist.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/courier.xml" value="0.33" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/createqr.xml" value="0.43645833333333334" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/deliverylist.xml" value="0.75" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/login.xml" value="0.33" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/normaluser.xml" value="0.67" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/postinfo.xml" value="0.5" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/postitem.xml" value="0.5" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/register.xml" value="0.33" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/showqr.xml" value="0.27717391304347827" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/user.xml" value="0.5" />
+        <entry key="..\:/Users/kohaku/AndroidStudioProjects/amberdelivery/app/src/main/res/layout/userlistitem.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

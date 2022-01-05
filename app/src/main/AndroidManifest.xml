@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amberdelivery">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Amberdelivery"
+        android:name="com.example.amberdelivery.data.Global">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".CourierActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".PostActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".UserActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".QRcodeActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ShowQRActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".NormalActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".AdminActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".AccessActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".AddDeliverActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name="com.king.zxing.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/CaptureTheme" />
+    </application>
+
+</manifest>
